@@ -1,4 +1,4 @@
-# To fix some errors in NS5.1 to support Nativescript plugin firebase
+# To fix  Error : “Execution failed for task ':app:processDebugManifest'.” in NS5.1 to support Nativescript plugin firebase
 
 Copy the code below in the app.gradle
 
