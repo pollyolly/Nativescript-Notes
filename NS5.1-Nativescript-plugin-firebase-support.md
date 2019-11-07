@@ -34,7 +34,7 @@ npm install tns-platform-declarations
 tns install typescript
 </pre>
 
-Create the file and add in project-folder/references.d
+Create the file and add in project-folder/references.d.ts
 
 ```
 /// <reference path="./node_modules/tns-platform-declarations/ios.d.ts" />
