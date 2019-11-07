@@ -1,4 +1,4 @@
-#To fix some errors in NS5.1
+# To fix some errors in NS5.1
 
 project-folder\app\App_Resources\Android\app.gradle
 
