@@ -122,5 +122,5 @@ References:
 <pre>
 https://medium.com/@renzocastro/nativescript-push-notifications-with-firebase-cloud-messaging-2a4a8643a8cb
 https://github.com/EddyVerbruggen/nativescript-plugin-firebase
-
+https://github.com/NativeScript/NativeScript/issues/7372#issuecomment-509039191
 </pre>
