@@ -61,7 +61,7 @@ Important:
 
 <pre>
 Device Token - generated when first initialize the firebase in your mobile app.
-Service Key - click the Cloud Messaging in firebase and get the service key.
+Server Key - click the Cloud Messaging in firebase and get the service key.
 </pre>
 
 Sample code to request notification.
@@ -94,7 +94,25 @@ sendFirebaseNotification: function(data){
 	   });
 	} 
 ```
-
+Sample code for firebase
+```
+const firebase = require("nativescript-plugin-firebase");
+firebase.init({
+                showNotifications: true,
+                showNotificationsWhenInForeground: true,
+            onPushTokenReceivedCallback: (token) => {
+                console.log('[Firebase] onPushTokenReceivedCallback:', { token });
+                this.$store.dispatch("SET_DEVICE_TOKEN", token);
+                this.$store.dispatch("SET_SERVER_KEY", serverKey);
+            },
+            onMessageReceivedCallback: (message) => {
+                console.log('[Firebase] onMessageReceivedCallback:', { message });
+            }}).then(() => {
+                console.log('[Firebase] Initialized');
+            }).catch(error => {
+                console.log('[Firebase] Initialize', { error });
+            });
+```
 Important in Firebase 
 <pre>
 Android package name - can be found in project-folder/package.json
