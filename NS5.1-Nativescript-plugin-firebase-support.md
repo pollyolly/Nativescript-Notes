@@ -42,7 +42,11 @@ Create the file and add in project-folder/references.d
 /// <reference path="./node_modules/nativescript-plugin-firebase/firebase.d.ts" />
 ```
 
-Install the nativescript plugin firebase. Answer (y) to 
+Install the nativescript plugin firebase. 
+```
+tns plugin add nativescript-plugin-firebase
+```
+Answer (y) to 
 ```
 prompt: Are you using Android (y/n): (y)
 prompt: Are you using Firebase Cloud Messaging? (y/n): (n) y
