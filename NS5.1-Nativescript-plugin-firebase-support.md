@@ -52,8 +52,9 @@ prompt: Are you using Android (y/n): (y)
 prompt: Are you using Firebase Cloud Messaging? (y/n): (n) y
 prompt: Do you want to save the selected configuration. Reinstalling the dependency will reuse the setup from: firebase.nativescript.json. CI will be easier. (y/n): (y)
 ```
+Generate the google-service.json in firebase then add to 
 <pre>
-Generate the google-service.json in firebase then add to project-folder/app/App_Resource/Android/
+project-folder/app/App_Resource/Android/
 </pre>
 
 Important:
@@ -93,3 +94,15 @@ sendFirebaseNotification: function(data){
 	   });
 	} 
 ```
+
+Important in Firebase 
+<pre>
+Android package name - can be found in project-folder/package.json
+</pre>
+
+References:
+<pre>
+https://medium.com/@renzocastro/nativescript-push-notifications-with-firebase-cloud-messaging-2a4a8643a8cb
+https://github.com/EddyVerbruggen/nativescript-plugin-firebase
+
+</pre>
