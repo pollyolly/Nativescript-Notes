@@ -54,7 +54,7 @@ Generate the google-service.json in firebase then add to project-folder/app/App_
 
 Important:
 
-<pre
+<pre>
 Device Token - generated when first initialize the firebase in your mobile app.
 Service Key - click the Cloud Messaging in firebase and get the service key.
 </pre>
