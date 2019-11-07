@@ -1,5 +1,6 @@
-//project-folder\app\App_Resources\Android\app.gradle
+project-folder\app\App_Resources\Android\app.gradle
 
+<pre>
 dependencies {
     configurations.all {
           exclude group: 'commons-logging', module: 'commons-logging'
@@ -18,3 +19,4 @@ dependencies {
         }
     }
   }
+</pre>
