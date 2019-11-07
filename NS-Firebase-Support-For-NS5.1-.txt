@@ -1,4 +1,4 @@
-//'''project-folder\app\App_Resources\Android\app.gradle'''
+//project-folder\app\App_Resources\Android\app.gradle
 
 dependencies {
     configurations.all {
