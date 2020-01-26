@@ -1,0 +1,17 @@
+https://docs.nativescript.org/core-concepts/project-structure-app#apppackagejson
+
+Catch Native application error to prevent application from crash
+
+```
+var application = require("application");
+
+application.on(application.discardedErrorEvent, function (args) {
+    const error = args.error;
+
+    console.log("Received discarded exception: ");
+    console.log(error.message);
+    console.log(error.stackTrace);
+    console.log(error.nativeException);
+    //report the exception in your analytics solution here
+});
+```
