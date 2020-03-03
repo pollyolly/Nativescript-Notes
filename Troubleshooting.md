@@ -1,5 +1,5 @@
-Unable to install nativescript 
+Unable to uninstall nativescript 
 
 ```
-npm uninstall -g nativescript --ignore-scripts
+Fix: npm uninstall -g nativescript --ignore-scripts
 ```
