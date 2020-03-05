@@ -14,3 +14,9 @@ tns build  android
 		--key-store-alias IskoMo 
 		--key-store-alias-password myPassword
 ```
+Quick Tutorial
+
+1. Generate KeyStore (.jks) in android studio
+   Menu -> Build -> Generate Signed Bundle or APK -> (choose) APK ->
+2. Then provide the keystore path, password, alias, and alias password.
+3. Save the KeyStore (.jks)
