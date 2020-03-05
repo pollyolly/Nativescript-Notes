@@ -1,3 +1,9 @@
+Nativescript Tutorial using Keytool
+```
+https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores#step-7
+```
+
+Command line
 ```
 tns build  android 
 		--release 
