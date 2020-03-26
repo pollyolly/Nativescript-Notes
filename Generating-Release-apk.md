@@ -24,3 +24,5 @@ Quick Tutorial using Android Studio
 Quick Tutorial using Nativescript Commandline
 
 https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores#step-5
+
+1. keytool -genkey -v -keystore iskomo.jks -keyalg RSA -keysize 2048 -validity 10000 -alias IskoMo
