@@ -26,3 +26,5 @@ Quick Tutorial using Nativescript Commandline
 https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-app-stores#step-5
 
 1. keytool -genkey -v -keystore iskomo.jks -keyalg RSA -keysize 2048 -validity 10000 -alias IskoMo
+2. After answering questions migrate to 
+3. keytool -importkeystore -srckeystore iskomo.jks -destkeystore iskomo.jks -deststoretype pkcs12
