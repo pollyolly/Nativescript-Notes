@@ -29,4 +29,4 @@ Execution failed for task ':app:signingConfig Writer Release'.
 F:\Desktop\nativescript-projects\iskomo\platforms\android\app\build\intermediates\signing_config\release\out\signing-config.json 
 Command gradlew.bat failed with exit code 1
 ```
-Fix: Delete the file signing-config.json
+Fix: Delete the file signing-config.json and run again the command.
