@@ -21,3 +21,12 @@ https://www.nativescript.org/blog/steps-to-publish-your-nativescript-app-to-the-
 1. keytool -genkey -v -keystore iskomo.jks -keyalg RSA -keysize 2048 -validity 10000 -alias IskoMo
 2. After answering questions migrate to 
 3. keytool -importkeystore -srckeystore iskomo.jks -destkeystore iskomo.jks -deststoretype pkcs12
+
+Troubleshooting
+
+```
+Execution failed for task ':app:signingConfig Writer Release'.
+F:\Desktop\nativescript-projects\iskomo\platforms\android\app\build\intermediates\signing_config\release\out\signing-config.json 
+Command gradlew.bat failed with exit code 1
+```
+Fix: Delete the file signing-config.json
