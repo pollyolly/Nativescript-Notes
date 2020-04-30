@@ -5,7 +5,7 @@ In manifest tag add
 <manifest 
     xmlns:tools="http://schemas.android.com/tools"
 ```
-and in application tag add
+and in application tag set to
 ```
 <application
       android:allowBackup="false"
