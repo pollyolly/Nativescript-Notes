@@ -55,7 +55,7 @@ tns doctor
 
 Running in Android
 <pre>
-tns run android --bundle --env.uglify --env.aot --device 'device-id'
+tns run android --bundle --env.uglify --env.aot --no-hmr --device 'device-id'
 </pre>
 
 Creating nativescript-vue project
